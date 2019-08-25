@@ -1,0 +1,16 @@
+
+TESTS FOR Person.java:
+Computer List, Owner: Ryan Klein (543-99-0001),
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+1408 Main Street
+Apt 4D
+Boston, MA 02101
+Computers: [Dell, Intel i5 - Quad Core 2.8 Ghz, 8GB Memory, 500GB Solid State Drive, Price: $499.99 , HP, Intel i7 - Eight Core 3.2 Ghz, 32GB Memory, 2.0TB Hard Drive, Price: $1299.99 , Apple, Intel i7 - Eight Core 3.4 Ghz, 16GB Memory, 1.5TB Solid State Drive, Price: $2499.99 , Asus, Intel i3 - Quad Core 2.4 Ghz, 4GB Memory, 250GB Hard Drive, Price: $299.99 ]
+
+Computer List, Owner: Ryan Klein (543-99-0001),
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+1408 Main Street
+Apt 4D
+Boston, MA 02101
+Computers: [Dell, Intel i5 - Quad Core 2.8 Ghz, 8GB Memory, 500GB Solid State Drive, Price: $499.99 , Apple, Intel i7 - Eight Core 3.4 Ghz, 16GB Memory, 1.5TB Solid State Drive, Price: $2499.99 ]
+
