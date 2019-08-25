@@ -89,6 +89,7 @@ public class Person {
 // Binghamton, NY 13905
   @Override
 	public String toString() {
-		return getPlaceDob().toString() + getAddress().toString();
+		return getFirstNames() + " " + getLastNames() + " (" + getSSN() + "),\n" +
+		       getPlaceDob() + "\n" + getAddress();
 	}
 }

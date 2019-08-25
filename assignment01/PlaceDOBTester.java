@@ -7,11 +7,11 @@ public class PlaceDOBTester {
 	public static void main(String[] args) {
 
     DateAndPlaceOfBirth birth1 = new DateAndPlaceOfBirth(1999, 3, 4, "Buffalo",
-                                 "New York", "United States of America");
+                                 "NY", "USA");
     DateAndPlaceOfBirth birth2 = new DateAndPlaceOfBirth(1942, 6, 15, "Lansing",
-                                 "Michigan", "United States of America");
+                                 "MI", "USA");
     DateAndPlaceOfBirth birth3 = new DateAndPlaceOfBirth(1988, 3, 4, "Mountain View",
-                                 "California", "United States of America");
+                                 "CA", "USA");
     DateAndPlaceOfBirth birth4 = new DateAndPlaceOfBirth(1999, 3, 4, "Kiev",
                                  "Ukraine");
     DateAndPlaceOfBirth birth5 = new DateAndPlaceOfBirth(2015, 11, 11, "Singapore",
@@ -69,11 +69,11 @@ public class PlaceDOBTester {
 			output.println("\nTESTS FOR DateAndPlaceOfBirth.java:");
 
       DateAndPlaceOfBirth birth1_2 = new DateAndPlaceOfBirth(1999, 3, 4, "Buffalo",
-                                   "New York", "United States of America");
+                                   "NY", "USA");
       DateAndPlaceOfBirth birth2_2 = new DateAndPlaceOfBirth(1942, 6, 15, "Lansing",
-                                   "Michigan", "United States of America");
+                                   "MI", "USA");
       DateAndPlaceOfBirth birth3_2 = new DateAndPlaceOfBirth(1988, 3, 4, "Mountain View",
-                                   "California", "United States of America");
+                                   "CA", "USA");
       DateAndPlaceOfBirth birth4_2 = new DateAndPlaceOfBirth(1999, 3, 4, "Kiev",
                                    "Ukraine");
       DateAndPlaceOfBirth birth5_2 = new DateAndPlaceOfBirth(2015, 11, 11, "Singapore",
