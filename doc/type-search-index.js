@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"assignment01","l":"Computer"},{"p":"assignment01","l":"ComputerOwner"},{"p":"assignment01","l":"DateAndPlaceOfBirth"},{"p":"assignment01","l":"Person"},{"p":"assignment01","l":"StreetUSAddress"}]
