@@ -1,5 +1,68 @@
 
-TESTS FOR SimpleDate.java:
+TESTS FOR Computer.java:
+Dell, Intel i5 - Quad Core 2.8 Ghz, 8GB Memory, 500GB Solid State Drive, Price: $499.99 
+HP, Intel i7 - Eight Core 3.2 Ghz, 32GB Memory, 2.0TB Hard Drive, Price: $1299.99 
+Apple, Intel i7 - Eight Core 3.4 Ghz, 16GB Memory, 1.5TB Solid State Drive, Price: $2499.99 
+Asus, Intel i3 - Quad Core 2.4 Ghz, 4GB Memory, 250GB Hard Drive, Price: $299.99 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+birth1_2: 
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+birth2_2: 
+Date and place of birth: 1942-06-15, Lansing, MI, USA
+birth3_2: 
+Date and place of birth: 1988-03-04, Mountain View, CA, USA
+birth4_2: 
+Date and place of birth: 1999-03-04, Kiev, Ukraine
+birth5_2: 
+Date and place of birth: 2015-11-11, Singapore, Singapore
+
+birth1_2 is older than birth2_2. Expected: false. Actual: false
+birth1_2 is older than birth5_2. Expected: true. Actual: true
+birth1_2 is older than birth4_2. Expected: false. Actual: false
+
+birth3_2 is younger than birth1_2. Expected: false. Actual: false
+birth3_2 is younger than birth2_2. Expected: true. Actual: true
+birth4_2 is younger than birth1_2. Expected: false. Actual: false
+
+birth1_2 has the same birth date as birth4_2. Expected: true. Actual: true
+birth1_2 has the same birth date as birth3_2. Expected: false. Actual: false
+birth4_2 has the same birth date  as birth5_2. Expected: false. Actual: false
+
+birth1_2 has the same birthday date as birth4_2. Expected: true. Actual: true
+birth1_2 has the same birthday as birth3_2. Expected: true. Actual: true
+birth4_2 has the same birthday as birth5_2. Expected: false. Actual: false
+
+TESTS FOR StreetUSAddress.java:
+1408 Main Street
+Boston, MA 02101
+
+19 Alpine Court
+Apt 2B
+Detroit, MI 48127
+
+TESTS FOR Person.java:
+Ryan Klein (543-99-0001),
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+1408 Main Street
+Boston, MA 02101
+
+
+TESTS FOR Person.java:
+Computer List, Owner: Ryan Klein (543-99-0001),
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+1408 Main Street
+Apt 4D
+Boston, MA 02101
+Computers: [Dell, Intel i5 - Quad Core 2.8 Ghz, 8GB Memory, 500GB Solid State Drive, Price: $499.99 , HP, Intel i7 - Eight Core 3.2 Ghz, 32GB Memory, 2.0TB Hard Drive, Price: $1299.99 , Apple, Intel i7 - Eight Core 3.4 Ghz, 16GB Memory, 1.5TB Solid State Drive, Price: $2499.99 , Asus, Intel i3 - Quad Core 2.4 Ghz, 4GB Memory, 250GB Hard Drive, Price: $299.99 ]
+
+Computer List, Owner: Ryan Klein (543-99-0001),
+Date and place of birth: 1999-03-04, Buffalo, NY, USA
+1408 Main Street
+Apt 4D
+Boston, MA 02101
+Computers: [Dell, Intel i5 - Quad Core 2.8 Ghz, 8GB Memory, 500GB Solid State Drive, Price: $499.99 , Apple, Intel i7 - Eight Core 3.4 Ghz, 16GB Memory, 1.5TB Solid State Drive, Price: $2499.99 ]
+
 
 TESTS FOR SimpleDate.java:
 date1_2 before date2_2. Expected: true. Actual: true

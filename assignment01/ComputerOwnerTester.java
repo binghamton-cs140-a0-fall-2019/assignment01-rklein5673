@@ -37,7 +37,7 @@ public class ComputerOwnerTester {
 
 		try(PrintWriter output =new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
-			output.println("\nTESTS FOR Person.java:");
+			output.println("\nTESTS FOR ComputerOwner.java:");
 
       DateAndPlaceOfBirth birth_2 = new DateAndPlaceOfBirth(1999, 3, 4, "Buffalo",
                                   "NY", "USA");
